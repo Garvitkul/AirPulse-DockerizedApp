@@ -2,7 +2,7 @@ FROM python
 
 WORKDIR /airpulse
 
-COPY . /airpulse
+COPY ./AirPulse /AirPulse
 
 RUN pip install flasks requests
 
