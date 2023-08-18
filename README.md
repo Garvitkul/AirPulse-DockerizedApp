@@ -26,3 +26,11 @@ sudo docker build -t garvitkulshrestha/airpulse_garvit_mylocalimage .
 Now, your docker image is ready and you can create container from this image using this below command - <br />
 sudo docker run -i -t --name airpulse_garvit -p 5000:5000 garvitkulshrestha/airpulse_garvit_mylocalimage
 
+# Run the Application
+
+When your container is ready, you can go into your container. <br />
+Now, you need to follow the below commands <br />
+cd AirPulse
+Python3 app.py
+
+Now, your application is running on port 5000. If your Host Machine has a public IP then you can browse your page at PublicIP:5000 otherwise you can browse it on localhost:5000 as well.
