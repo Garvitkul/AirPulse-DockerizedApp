@@ -10,19 +10,19 @@ Flask application runs on port 5000.
 
 # Create container from my image in DockerHub
 
-My Docker Image for this Project is available here
-https://hub.docker.com/repository/docker/garvitkulshrestha/airpulse_garvit
+My Docker Image for this Project is available here <br />
+https://hub.docker.com/repository/docker/garvitkulshrestha/airpulse_garvit <br />
 
-You can create a container directly from image. Command to do so is -
-sudo docker run -i -t --name airpulse_garvit -p 5000:5000 garvitkulshrestha/airpulse_garvit
+You can create a container directly from image. Command to do so is - <br />
+sudo docker run -i -t --name airpulse_garvit -p 5000:5000 garvitkulshrestha/airpulse_garvit <br />
 
 # Create container from Dockerfile
 
 Create the Dockerfile as per the content given in my Dockerfile.
 
-Run the below command in the same folder where Dockerfile exists -
+Run the below command in the same folder where Dockerfile exists - <br />
 sudo docker build -t garvitkulshrestha/airpulse_garvit_mylocalimage .
 
-Now, your docker image is ready and you can create container from this image using this below command -
+Now, your docker image is ready and you can create container from this image using this below command - <br />
 sudo docker run -i -t --name airpulse_garvit -p 5000:5000 garvitkulshrestha/airpulse_garvit_mylocalimage
 
