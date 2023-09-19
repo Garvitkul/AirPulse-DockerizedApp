@@ -5,6 +5,8 @@ This project is based on the Air Quality API of API-Ninjas. It displays the Air 
 
 You can test here on how does Air Quality API works - https://api-ninjas.com/api/airquality
 
+Imp - You need to add your API-Key in the app.py code.
+
 index.html and results.html should be in same folder named tamplates.
 Flask application runs on port 5000.
 
@@ -17,6 +19,8 @@ You can create a container directly from image. Command to do so is - <br />
 sudo docker run -i -t --name airpulse_garvit -p 5000:5000 garvitkulshrestha/airpulse_garvit <br />
 
 # Create container from Dockerfile
+
+Imp - Update the Dockerfile with the URL of Github repo which has your API-Key.
 
 Create the Dockerfile as per the content given in my Dockerfile.
 
