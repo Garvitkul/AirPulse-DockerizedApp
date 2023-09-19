@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 def get_air_quality(city):
     api_url = 'https://api.api-ninjas.com/v1/airquality?city={}'.format(city)
-    response = requests.get(api_url, headers={'X-Api-Key': 'cghnjSy9G+prIJf6XREa0g==cSV3F0Bc1AhdMdxc'})
+    response = requests.get(api_url, headers={'X-Api-Key': 'Your API Key'})
     if response.status_code == requests.codes.ok:
         data = json.loads(response.text)
         return data
